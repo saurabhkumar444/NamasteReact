@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "react cource",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabhkumar444/react-namaste.git"
+  },
+  "author": "Saurabh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabhkumar444/react-namaste/issues"
+  },
+  "homepage": "https://github.com/saurabhkumar444/react-namaste#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
