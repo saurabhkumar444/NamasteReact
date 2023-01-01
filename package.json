@@ -4,6 +4,8 @@
   "description": "react cource",
   "main": "App.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/saurabhkumar444/react-namaste#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.2",
     "process": "^0.11.10"
   },
