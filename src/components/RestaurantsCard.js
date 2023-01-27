@@ -1,17 +1,14 @@
 import React from "react";
+import { IMG_URL } from "../config";
 import "./RestaurantsCard.css";
 
-const Img_url =
-  "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
-
 const RestaurantsCard = (props) => {
-  console.log(props);
   const { restaurant } = props;
   return (
     <div className="restaurants_card">
       <img
         className="cardImg"
-        src={Img_url + restaurant.data?.cloudinaryImageId}
+        src={IMG_URL + restaurant.data?.cloudinaryImageId}
         alt="Image"
       />
       <h2>{restaurant.data?.name}</h2>
