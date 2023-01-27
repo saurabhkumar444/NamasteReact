@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div>
-      <h3>Parcel is beast</h3>
+      <h3>Saurabh Maurya</h3>
     </div>
   );
 };

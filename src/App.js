@@ -2,19 +2,20 @@ import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import Footer from "./components/Footer";
 import Headers from "./components/Header";
+import RestaurantsCard from "./components/RestaurantsCard";
+import "./App.css";
+import Body from "./components/Body";
 
-const Heading = () => {
+const AppLayout = () => {
   return (
-    <div>
+    <>
       <Headers />
-      {console.log("Any JS code we can write here")}
-      <h1 key="h1">I'm a Software developer</h1>
-      <h2 key="h2">React is beautiful</h2>
+      <Body />
       <Footer />
-    </div>
+    </>
   );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<Heading />);
+root.render(<AppLayout />);

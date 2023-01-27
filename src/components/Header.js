@@ -1,38 +1,24 @@
+import React from "react";
+
 const Headers = () => (
-  <div
-    style={{
-      justifyContent: "space-between",
-      display: "flex",
-    }}
-  >
+  <div className="header">
     <img
+      className="logo"
       src="https://cdn.logo.com/hotlink-ok/logo-social.png"
       alt="logo"
-      style={{ height: 40, width: 40 }}
     />
-    <div
-      style={{
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <input
-        onChange={(e, value) => {
-          console.log(e.target.value);
-        }}
-      />
-      <button
-        onClick={() => {
-          console.log("click");
-        }}
-      >
-        Search
-      </button>
+    <div className="nav-items">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Connect</li>
+        <li>Profile</li>
+      </ul>
     </div>
     <img
-      src="https://w7.pngwing.com/pngs/178/595/png-transparent-user-profile-computer-icons-login-user-avatars.png"
+      className="logo"
+      src="https://icon2.cleanpng.com/20180331/ezq/kisspng-catering-food-computer-icons-logo-event-management-catering-5abf487c5eb658.714031151522485372388.jpg"
       alt="logo"
-      style={{ height: 40, width: 40 }}
     />
   </div>
 );
