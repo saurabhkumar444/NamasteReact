@@ -10,7 +10,12 @@
   list-style-type: none;
   display: flex;
 }
-
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .nav-items {
+    display: none;
+  }
+}
 .nav-items > ul > li {
   padding: 5px;
 }

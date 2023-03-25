@@ -1,10 +1,16 @@
 .restaurants_card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 200px;
   padding: 10px;
-  margin: 5px;
+  /* margin: 5px; */
+}
+.restaurants_card:hover {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px 2px lightgray;
 }
 
 .cardImg {
   width: 100%;
+  height: 100%;
+  
 }
